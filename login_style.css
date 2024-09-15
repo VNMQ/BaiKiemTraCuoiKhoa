@@ -1,0 +1,430 @@
+.dashboard-2-1,
+.frame-child {
+  position: relative;
+  max-width: 100%;
+}
+.frame-child {
+  height: 964px;
+  width: 815px;
+  border-radius: var(--br-11xl);
+  background-color: var(--primary-primary-5);
+  display: none;
+}
+.dashboard-2-1 {
+  width: 685px;
+  border-radius: var(--br-17xl) 0 0 var(--br-17xl);
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangle-parent {
+  width: 815px;
+  border-radius: var(--br-11xl);
+  background-color: var(--primary-primary-5);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 93px 0;
+  box-sizing: border-box;
+  min-width: 815px;
+  max-width: 100%;
+}
+.image-border {
+  height: 53.3px;
+  width: 53.3px;
+  position: relative;
+  border-radius: 32px;
+  background-color: #8d75f5;
+}
+.phmeta-logo-bold-icon {
+  height: 28.6px;
+  width: 28.6px;
+  position: absolute;
+  margin: 0 !important;
+  top: 12.3px;
+  left: 12.3px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.image-border-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 2.2px;
+}
+.hrms-icon {
+  align-self: stretch;
+  height: 29.3px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.product-name {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 11.2px;
+}
+.instance-parent,
+.logo-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.instance-parent {
+  flex: 1;
+  align-items: flex-end;
+  gap: 12.6px;
+}
+.logo-text {
+  width: 180px;
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 9.9px 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.welcomebackfabiana {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.welcomebackfabiana1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-1-regular-size);
+  line-height: 24px;
+  font-weight: 300;
+  color: var(--gray-500);
+}
+.welcomebackfabiana-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.text,
+.text1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 16px;
+  font-weight: 300;
+}
+.text1 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-1-regular);
+  font-size: var(--body-1-regular-size);
+  background-color: transparent;
+  height: 24px;
+  line-height: 24px;
+  color: var(--dark-500);
+  text-align: left;
+  display: inline-block;
+  min-width: 248px;
+  white-space: nowrap;
+  padding: 0;
+}
+.input-cursor-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+  max-width: 100%;
+}
+.icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  display: none;
+}
+.input,
+.input-cursor-area-parent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.input-cursor-area-parent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.input {
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--primary-500);
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-8xs) var(--padding-mini);
+}
+.text2,
+.text3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 16px;
+  font-weight: 300;
+}
+.text3 {
+  width: calc(100% - 0px);
+  border: 0;
+  outline: 0;
+  font-family: var(--body-1-regular);
+  font-size: var(--body-1-regular-size);
+  background-color: transparent;
+  height: 24px;
+  line-height: 24px;
+  color: var(--dark-500);
+  text-align: left;
+  display: inline-block;
+  min-width: 227px;
+  padding: 0;
+}
+.text-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+  min-width: 246px;
+  max-width: 100%;
+}
+.icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.frame-parent,
+.input-area,
+.input1 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.input-area,
+.input1 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input1 {
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--primary-500);
+  box-sizing: border-box;
+  padding: var(--padding-8xs) var(--padding-mini);
+}
+.input-area {
+  gap: var(--gap-xl);
+}
+.state {
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  border-radius: 4px;
+  min-height: 24px;
+}
+.checkbox1 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 113px;
+}
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base) 0 0;
+  gap: var(--gap-3xs);
+}
+.welcomebackfabiana2 {
+  position: relative;
+  font-size: var(--body-2-regular-size);
+  line-height: 22px;
+  font-weight: 300;
+  color: var(--primary-500);
+  text-align: right;
+  display: inline-block;
+  min-width: 119px;
+}
+.checkbox-parent,
+.input-field {
+  align-self: stretch;
+  display: flex;
+}
+.checkbox-parent {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 13px 0 0;
+  gap: var(--gap-xl);
+  font-size: var(--body-1-regular-size);
+  color: var(--dark-500);
+}
+.input-field {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 16px;
+  max-width: 100%;
+}
+.button1 {
+  position: relative;
+  font-size: var(--body-1-regular-size);
+  line-height: 24px;
+  font-weight: 300;
+  font-family: var(--body-1-regular);
+  color: var(--white-500);
+  text-align: left;
+  display: inline-block;
+  min-width: 42px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) 20px;
+  background-color: var(--primary-500);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  background-color: #8a6bff;
+}
+.input-field-parent,
+.login-details {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.input-field-parent {
+  display: flex;
+  justify-content: flex-start;
+  font-size: var(--label-regular-size);
+  color: var(--primary-500);
+}
+.login-details {
+  flex-shrink: 0;
+}
+.login,
+.login-details,
+.login-inner,
+.logo-text-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.logo-text-parent {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 100%;
+}
+.login,
+.login-inner {
+  box-sizing: border-box;
+}
+.login-inner {
+  width: 445px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 248px;
+  min-width: 445px;
+  min-height: 716px;
+  max-width: 100%;
+}
+.login {
+  width: 100%;
+  position: relative;
+  background-color: var(--white-500);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 30px;
+  gap: 50px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--header-4-bold-size);
+  color: var(--dark-500);
+  font-family: var(--body-1-regular);
+}
+@media screen and (max-width: 1300px) {
+  .dashboard-2-1,
+  .login-inner,
+  .rectangle-parent {
+    flex: 1;
+  }
+  .login {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .rectangle-parent {
+    padding-top: var(--padding-41xl);
+    padding-bottom: var(--padding-41xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .rectangle-parent {
+    padding-top: var(--padding-20xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .welcomebackfabiana {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .login-inner {
+    padding-bottom: 161px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .login {
+    gap: 25px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcomebackfabiana {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .checkbox-parent,
+  .frame-parent {
+    flex-wrap: wrap;
+  }
+  .logo-text-parent {
+    gap: var(--gap-xl);
+  }
+}

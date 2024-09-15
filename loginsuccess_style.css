@@ -1,0 +1,380 @@
+.vuesaxlineararrow-left-icon1 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    display: none;
+    z-index: 0;
+  }
+  .back1 {
+    position: absolute;
+    margin: 0 !important;
+    top: 46px;
+    right: -24px;
+    line-height: 24px;
+    font-weight: 300;
+    display: inline-block;
+    min-width: 38px;
+  }
+  .welcomebackfabiana2 {
+    width: 445px;
+    top: 100px;
+    right: -402px;
+    font-size: var(--header-4-bold-size);
+    line-height: 40px;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .separator,
+  .welcomebackfabiana2,
+  .welcomebackfabiana3 {
+    position: absolute;
+    margin: 0 !important;
+  }
+  .welcomebackfabiana3 {
+    width: 445px;
+    top: 145px;
+    right: -402px;
+    line-height: 24px;
+    font-weight: 300;
+    color: var(--gray-gray-20);
+    display: inline-block;
+  }
+  .separator {
+    height: 60px;
+    width: 60px;
+    right: -17px;
+    bottom: 132px;
+    border-radius: var(--br-3xs);
+    border: 1px solid var(--primary-500);
+    box-sizing: border-box;
+  }
+  .dashboard-link-child {
+    height: 964px;
+    width: 815px;
+    position: relative;
+    border-radius: var(--br-11xl);
+    background-color: var(--primary-primary-5);
+    display: none;
+    max-width: 100%;
+  }
+  .dashboard-2-11 {
+    width: 685px;
+    position: relative;
+    border-radius: var(--br-17xl) 0 0 var(--br-17xl);
+    max-height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .dashboard-link {
+    width: 815px;
+    margin: 0 !important;
+    position: absolute;
+    top: -275px;
+    left: -472px;
+    border-radius: var(--br-11xl);
+    background-color: var(--primary-primary-5);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: var(--padding-74xl) var(--padding-2xs);
+    box-sizing: border-box;
+  }
+  .popup-title,
+  .welcomebackfabiana4 {
+    display: flex;
+    justify-content: center;
+  }
+  .welcomebackfabiana4 {
+    margin: 0;
+    width: 100px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    align-items: center;
+  }
+  .popup-title {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 var(--padding-xl);
+  }
+  .password-update {
+    margin: 0;
+  }
+  .welcomebackfabiana5 {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .welcomebackfabiana6 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--body-1-regular-size);
+    line-height: 24px;
+    font-weight: 300;
+    color: var(--gray-gray-20);
+  }
+  .popup-message {
+    gap: var(--gap-8xs);
+    font-size: var(--header-4-bold-size);
+    font-family: var(--body-1-regular);
+  }
+  .popup-content,
+  .popup-message {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .button3 {
+    position: relative;
+    font-size: var(--body-1-regular-size);
+    line-height: 24px;
+    font-weight: 300;
+    font-family: var(--body-1-regular);
+    color: var(--white-500);
+    text-align: left;
+    display: inline-block;
+    min-width: 105px;
+  }
+  .button2 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-base) var(--padding-xl);
+    background-color: var(--primary-500);
+    align-self: stretch;
+    border-radius: var(--br-3xs);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    white-space: nowrap;
+  }
+  .button2:hover {
+    background-color: #8a6bff;
+  }
+  .password-update-successfully-p {
+    flex: 1;
+    border-radius: var(--br-11xl);
+    background-color: var(--white-500);
+    overflow: hidden;
+    flex-direction: column;
+    padding: var(--padding-11xl);
+    box-sizing: border-box;
+    gap: 40px;
+    z-index: 3;
+    text-align: center;
+    font-size: 100px;
+    font-family: var(--font-poppins);
+  }
+  .content,
+  .main,
+  .password-update-successfully-p {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .main {
+    align-self: stretch;
+    flex-direction: row;
+    position: relative;
+  }
+  .content {
+    width: 453px;
+    flex-direction: column;
+    padding: 0 var(--padding-mid) 0 0;
+    box-sizing: border-box;
+  }
+  .welcome-container-child {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    border-radius: var(--br-3xs);
+    border: 1px solid var(--primary-500);
+    box-sizing: border-box;
+    display: none;
+  }
+  .welcomebackfabiana7 {
+    position: relative;
+    line-height: 36px;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 16px;
+    z-index: 1;
+  }
+  .containers,
+  .welcome-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .welcome-container {
+    align-self: stretch;
+    border-radius: var(--br-3xs);
+    border: 1px solid var(--primary-500);
+    flex-direction: row;
+    padding: var(--padding-3xs) var(--padding-2xl);
+  }
+  .containers {
+    height: 192px;
+    width: 60px;
+    flex-direction: column;
+    text-align: center;
+    font-size: var(--header-5-bold-size);
+  }
+  .containers-child {
+    align-self: stretch;
+    height: 60px;
+    position: relative;
+    border-radius: var(--br-3xs);
+    border: 1px solid var(--gray-gray-20);
+    box-sizing: border-box;
+  }
+  .button5 {
+    position: relative;
+    line-height: 24px;
+    font-weight: 300;
+    display: inline-block;
+    min-width: 44px;
+  }
+  .button4,
+  .containers1 {
+    display: flex;
+    align-items: flex-start;
+  }
+  .button4 {
+    width: 445px;
+    margin: 0 !important;
+    position: absolute;
+    right: -225px;
+    bottom: 46px;
+    border-radius: var(--br-3xs);
+    background-color: var(--primary-500);
+    flex-direction: row;
+    justify-content: center;
+    padding: var(--padding-base) var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .containers1 {
+    height: 192px;
+    width: 60px;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    color: var(--white-500);
+  }
+  .welcomebackfabiana8 {
+    position: relative;
+    font-size: var(--header-5-bold-size);
+    line-height: 36px;
+    font-weight: 600;
+    text-align: center;
+    display: none;
+    min-width: 15px;
+    z-index: 4;
+  }
+  .containers2 {
+    height: 192px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .image-1555 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    backdrop-filter: blur(20px);
+    background-color: var(--gray-gray-20);
+    z-index: 2;
+  }
+  .login-successfull {
+    width: 100%;
+    position: relative;
+    background-color: var(--white-500);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 305px var(--padding-xl) 304px 357px;
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--body-1-regular-size);
+    color: var(--dark-500);
+    font-family: var(--body-1-regular);
+  }
+  @media screen and (max-width: 1150px) {
+    .login-successfull {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-left: 178px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .welcomebackfabiana2 {
+      font-size: var(--header-5-bold-size);
+      line-height: 32px;
+    }
+    .welcomebackfabiana4 {
+      font-size: 50px;
+    }
+    .welcomebackfabiana5 {
+      font-size: var(--header-5-bold-size);
+      line-height: 32px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .login-successfull {
+      padding-left: 89px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .welcomebackfabiana2 {
+      font-size: var(--header-7-bold-size);
+      line-height: 24px;
+    }
+    .welcomebackfabiana4 {
+      font-size: var(--header-4-bold-size);
+    }
+    .welcomebackfabiana5 {
+      font-size: var(--header-7-bold-size);
+      line-height: 24px;
+    }
+    .password-update-successfully-p {
+      gap: var(--gap-xl);
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .welcomebackfabiana7,
+    .welcomebackfabiana8 {
+      font-size: var(--font-size-lgi);
+      line-height: 29px;
+    }
+    .login-successfull {
+      padding-left: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }  

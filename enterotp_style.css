@@ -1,0 +1,203 @@
+.welcome-message-child {
+    height: 964px;
+    width: 815px;
+    position: relative;
+    border-radius: var(--br-11xl);
+    background-color: var(--primary-primary-5);
+    display: none;
+    max-width: 100%;
+  }
+  .dashboard-2-1 {
+    width: 685px;
+    position: relative;
+    border-radius: var(--br-17xl) 0 0 var(--br-17xl);
+    max-height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .welcome-message {
+    width: 815px;
+    border-radius: var(--br-11xl);
+    background-color: var(--primary-primary-5);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 93px var(--padding-2xs);
+    box-sizing: border-box;
+    min-width: 815px;
+    max-width: 100%;
+  }
+  .vuesaxlineararrow-left-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    min-height: 24px;
+  }
+  .back {
+    position: relative;
+    line-height: 24px;
+    font-weight: 300;
+    display: inline-block;
+    min-width: 38px;
+  }
+  .vuesaxlineararrow-left-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+  }
+  .welcomebackfabiana {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .we-have-share {
+    margin: 0;
+  }
+  .welcomebackfabiana1 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--body-1-regular-size);
+    line-height: 24px;
+    font-weight: 300;
+    color: var(--gray-gray-20);
+  }
+  .welcomebackfabiana-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+    font-size: var(--header-4-bold-size);
+  }
+  .frame-child {
+    height: 60px;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-3xs);
+    border: 1px solid var(--gray-gray-20);
+    box-sizing: border-box;
+    min-width: 59px;
+    max-width: 60px;
+  }
+  .rectangle-parent {
+    width: 380px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .button1 {
+    position: relative;
+    line-height: 24px;
+    font-weight: 300;
+    display: inline-block;
+    min-width: 44px;
+  }
+  .button,
+  .frame-parent {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+  }
+  .button {
+    border-radius: var(--br-3xs);
+    background-color: var(--primary-500);
+    flex-direction: row;
+    justify-content: center;
+    padding: var(--padding-base) var(--padding-xl);
+    color: var(--white-500);
+  }
+  .frame-parent {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-11xl);
+    max-width: 100%;
+  }
+  .enter-otp,
+  .enter-otp-inner {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .enter-otp-inner {
+    width: 445px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 320px;
+    min-width: 445px;
+    min-height: 643px;
+    max-width: 100%;
+  }
+  .enter-otp {
+    width: 100%;
+    position: relative;
+    background-color: var(--white-500);
+    overflow: hidden;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: var(--padding-11xl);
+    gap: 50px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--body-1-regular-size);
+    color: var(--dark-500);
+    font-family: var(--body-1-regular);
+  }
+  @media screen and (max-width: 1300px) {
+    .dashboard-2-1,
+    .enter-otp-inner,
+    .welcome-message {
+      flex: 1;
+    }
+    .enter-otp {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1125px) {
+    .welcome-message {
+      padding-top: var(--padding-41xl);
+      padding-bottom: var(--padding-41xl);
+      box-sizing: border-box;
+      min-width: 100%;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .welcome-message {
+      padding-top: var(--padding-20xl);
+      padding-bottom: var(--padding-20xl);
+      box-sizing: border-box;
+    }
+    .welcomebackfabiana {
+      font-size: var(--font-size-5xl);
+      line-height: 32px;
+    }
+    .enter-otp-inner {
+      padding-bottom: 208px;
+      box-sizing: border-box;
+      min-width: 100%;
+    }
+    .enter-otp {
+      gap: var(--gap-6xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .welcomebackfabiana {
+      font-size: var(--header-7-bold-size);
+      line-height: 24px;
+    }
+    .rectangle-parent {
+      flex-wrap: wrap;
+    }
+  }
